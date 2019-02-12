@@ -41,6 +41,7 @@ My C++ faker is around 30 times faster than python's faker - fast enough that
 
 To compare, here are two functionally equivalent CSV data generators (source
 below)::
+
     $ time python mkdata.py 10000 > t
     real    0m53.317s
     user    0m47.890s
@@ -53,6 +54,7 @@ below)::
 
 
 Here's mkdata.py::
+
     import sys
 
     n = 1
